@@ -1,0 +1,56 @@
+body {
+    background-color: #5b5b5c;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    text-align: center;
+    font: 20px;
+}
+
+.quadrado {
+    background-color: #c0c0c0;
+    padding: 20px 0px;
+    border-radius: 15px;
+    color: #f0f8ff;
+    max-width: 50vw;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 60px;
+    color: #f0f8ff;
+}
+
+h3 {
+    font-size: 20px;
+    color: #0d0d0e;
+}
+
+#usuario,
+#senha {
+    height: 50px;
+}
+
+button {
+    width: 160px;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .quadrado {
+        max-width: 80vw;
+    }
+
+    button {
+        width: 120px;
+    }
+}
