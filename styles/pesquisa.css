@@ -1,0 +1,27 @@
+body{
+
+    text-align: center;
+   
+    width: 100%;
+    
+
+}
+
+.div1{
+    background-color: #0d0d38;
+    height: 79px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .quadrado {
+        max-width: 80vw;
+    }
+
+    button {
+        width: 120px;
+    }
+}
